@@ -1,0 +1,37 @@
+<!--
+Qual é a finalidade da declaração em um documento HTML? Qual é sua importância? Sua finalidade é declarar o doctype paraespecificar em qual versão foi escrito; é importante para que os navegadores e demais sistemas que estarão lendo este documento possam interpretar corretamente o código. 
+
+O que são elementos HTML? Explique brevemente o conceito. O html é uma linguagem de marcação construída para ser lida por computadores e humanos. Através dos elementos, podemos construir um código que seja semântico, facilmente legível e que os navegadores podem interpretar e renderizar corretamente a formatação e disposição de elementos na página, assim como podemos estilizar esses elementos com css.
+
+Em HTML, como os elementos são estruturados geralmente? Descreva a estrutura básica de um documento HTML, incluindo as tags de abertura e fechamento.Primeiro se abre com sinal de menor que em seguida, vem o nome da tag, após o nome da tag coloque os atributos (exemplo, class, href etc.), vindo em seguida o sinal de maior que, sendo seguido pelo conteúdo da tag, e sinal de menor que, barra invertida, com o sinal de maior que.
+
+O que são atributos em HTML e onde eles são normalmente encontrados em um elemento HTML? Dê um exemplo de um elemento HTML com atributos. São metadados do elemento, são encontrados depois do nome da tag na abertura do elemento. Por exemplo o href que é utilizado para definir o link para onde o usuário será direcionado ao clicar.
+
+O que são elementos vazios em HTML? Forneça alguns exemplos de elementos vazios e explique por que eles são considerados vazios. 
+
+Explique a diferença entre elementos de bloco e elementos inline em HTML. Dê exemplos de cada um. Elementos de bloco são elementos que possuem elementos internos e que ocupam um espaço forçando quebra de linha, exemplo div. Elementos de linha são elementos que não forçam quebra de linha, exemplo a.
+
+Qual é a diferença entre as tags <div> e <span> em HTML? Quando você usaria uma em vez da outra? A tag div força quebra de linha e é utilizada na construção do layout da página; já a tag spam é uma tag inline utilizada para em elementos simples.
+
+Qual atributo HTML permite abrir um link em uma nova janela ou guia do navegador? Dê um exemplo de como usar esse atributo. O target permite abrir um link em uma nova janela ou guia do navegador de acordo com o valor que está definido nele. Exemplo target='_blank', que forçara a abertura de uma nova aba. 
+
+Além do exemplo mencionado na aula, pesquise e liste pelo menos três meta informações que podem ser adicionadas a uma página HTML. Explique brevemente o propósito de cada uma delas. Robots é uma metatag que pode ser usada para definir aos robôs que acessam a página se eles devem indexar ou não, exemplo robô do google; a metatag viewport permite controlar a largurae escala da janela de forma que seja dimensionada corretamente em todos os dispositivos; a metatag generator permite definir qual foi o software utilizado para gerar o html.
+
+Além das tags <b> e <i>, que outras tags de formatação HTML você conhece? Liste pelo menos duas tags adicionais e explique como elas são usadas. <small> para um texto pequeno e <mark> que permite o efeito marca texto.
+-->
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Minha página
+        </title>
+    </head>
+    <body>
+        <h1>Conteúdo de receitas </h1>
+        <p>Espaço reservado para documentação de receitas de família, regionais, e <i>criativas</i>.</p>
+        <a href="https://www.tudogostoso.com.br/receita/190665-brigadeiro-gourmet.html">
+            <img src="brigadeiro.jpg">
+        </a>
+        <hr/>
+    </body>
+</html>
