@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>Agência Vacaciones</title>
+    </head>
+
+    <body>
+        <h1>Formulário de Preferências Turísticas</h1>
+        <form>       
+           <label for="nome">Nome</label>
+           <input type="text" id="nome" name="nome" placeholder="Nome Completo" required> 
+           <label for="email">Email</label>
+           <input type="email" id="email" name="email" placeholder="exemplo@dominio.com" required> 
+           <label for="senha">Senha</label>
+           <input type="password" id="senha" name="senha"> 
+           <label for="idade">Digite sua idade:</label>
+           <input type="number" name="idade" id="idade" max="150" min="0">
+           <label for="genero">Gênero</label>
+           <select name="genero" id="genero">
+                <option value="M">Masculino</option>
+                <option value="F">Feminino</option>
+                <option value="B">Não Binário</option>
+                <option value="O">Outro</option>
+           </select>
+           <label for="telefone">Telefone</label>
+           <input type="tel" name="telefone" id="telefone">
+           <fieldset>
+                <legend>Destino de viagem dos sonhos</legend>
+                <input type="radio" id="metropole" name="destino" value="Metrópole agitada">
+                <label for="metropole">Metrópole agitada</label>
+                <input type="radio" id="historico" name="destino" value="Histórico e cultural">
+                <label for="historico">Histórico e cultural</label>
+                <input type="radio" id="praia" name="destino" value="Praia Tropical">
+                <label for="praia">Praia Tropical</label>
+           </fieldset>
+
+           <fieldset>
+                <legend>Datas para a viagem</legend>
+                <label for="DataDeIda">Data de ida</label>
+                <input type="date" name="DataDeIda" id="DataDeIda" min="2023-10-18">
+                <label for="DataDeVolta">Data de Volta</label>
+                <input type="date" name="DataDeVolta" id="DataDeVolta" max="2024-10-18">                
+           </fieldset>
+           <label for="msg">Mensagem Adicional <br>
+                <textarea name="msg" id="msg" cols="20" rows="5"></textarea>
+           </label>
+           <br>
+           <input type="reset" value="Limpar campos">
+           <input type="submit" value="Enviar">
+           
+        </form>
+
+    </body>
+
+</html>
